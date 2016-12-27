@@ -16,7 +16,7 @@ data Fish = Fish {
   } deriving (Show)
 makeFields ''Fish
 
-makeFields ''Donkey
+-- makeFields ''Donkey
 makeFields ''Rabbit
 
 main :: IO ()

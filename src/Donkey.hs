@@ -5,8 +5,8 @@
 
 module Donkey (
   Donkey(..)
---  , uuid
---  , name
+  , uuid
+  , name
   ) where
 
 import Control.Lens
@@ -16,4 +16,4 @@ data Donkey = Donkey {
   , _donkeyName :: String
   } deriving (Show)
 
--- makeFields ''Donkey
+makeFields ''Donkey
